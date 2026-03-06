@@ -1,4 +1,4 @@
-﻿.title {
+.title {
     text-align: center;
     font-size: 100px;
     font-family: "Archivo Black", sans-serif;
@@ -7,6 +7,17 @@
 .game-background {
     background-color:slategray;
 }
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.logo-title {
+    display: flex;
+    align-items: center; /* vertically centers logo + text */
+    gap: 15px; /* space between logo and text */
+}
+
+
 .top-container {
     display: flex;
     gap: 20px; /* space between boxes */
@@ -58,4 +69,9 @@
     opacity: 0;
     transition: 0.3s;
     border-radius: 0 0 8px 8px;
+}
+.request-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
