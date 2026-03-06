@@ -1,0 +1,61 @@
+﻿.title {
+    text-align: center;
+    font-size: 100px;
+    font-family: "Archivo Black", sans-serif;
+    margin:30px;
+}
+.game-background {
+    background-color:slategray;
+}
+.top-container {
+    display: flex;
+    gap: 20px; /* space between boxes */
+    flex-wrap:wrap;
+}
+.top {
+    width: 255px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.top:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+    .game:hover {
+        background-color: #555;
+        transform: scale(1.05);
+    }
+.game {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+.game-button {
+    width:150px;
+    height:150px;
+}
+.game-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 0 0 8px 8px;
+}
